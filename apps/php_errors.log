@@ -1,0 +1,75 @@
+[14-Jul-2016 02:13:33 UTC] PHP Fatal error:  Call to a member function view() on a non-object in /home/ubuntu/workspace/apps/one/application/controllers/Welcome.php on line 23
+[14-Jul-2016 02:13:33 UTC] PHP Stack trace:
+[14-Jul-2016 02:13:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 02:13:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[14-Jul-2016 02:13:33 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[14-Jul-2016 02:13:33 UTC] PHP   4. Welcome->index() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[14-Jul-2016 02:15:46 UTC] PHP Fatal error:  Call to a member function view() on a non-object in /home/ubuntu/workspace/apps/one/application/controllers/Welcome.php on line 23
+[14-Jul-2016 02:15:46 UTC] PHP Stack trace:
+[14-Jul-2016 02:15:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 02:15:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[14-Jul-2016 02:15:46 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[14-Jul-2016 02:15:46 UTC] PHP   4. Welcome->index() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[14-Jul-2016 02:50:27 UTC] PHP Warning:  require_once(wp_bootstrap_navwalker.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 02:50:27 UTC] PHP Stack trace:
+[14-Jul-2016 02:50:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 02:50:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 02:50:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 02:50:27 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 02:50:27 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367
+[14-Jul-2016 02:50:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp_bootstrap_navwalker.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 02:50:27 UTC] PHP Stack trace:
+[14-Jul-2016 02:50:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 02:50:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 02:50:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 02:50:27 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 02:50:27 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367
+[14-Jul-2016 02:51:07 UTC] PHP Warning:  require_once(../../../wp_bootstrap_navwalker.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 02:51:07 UTC] PHP Stack trace:
+[14-Jul-2016 02:51:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 02:51:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 02:51:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 02:51:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 02:51:07 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367
+[14-Jul-2016 02:51:07 UTC] PHP Fatal error:  require_once(): Failed opening required '../../../wp_bootstrap_navwalker.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 02:51:07 UTC] PHP Stack trace:
+[14-Jul-2016 02:51:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 02:51:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 02:51:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 02:51:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 02:51:07 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367
+[14-Jul-2016 02:56:31 UTC] PHP Warning:  require_once(wp_bootstrap_navwalker.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 02:56:31 UTC] PHP Stack trace:
+[14-Jul-2016 02:56:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 02:56:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 02:56:31 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 02:56:31 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 02:56:31 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367
+[14-Jul-2016 02:56:31 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp_bootstrap_navwalker.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 02:56:31 UTC] PHP Stack trace:
+[14-Jul-2016 02:56:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 02:56:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 02:56:31 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 02:56:31 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 02:56:31 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367
+[14-Jul-2016 03:14:17 UTC] PHP Fatal error:  Call to undefined function get_home_path() in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 03:14:17 UTC] PHP Stack trace:
+[14-Jul-2016 03:14:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 03:14:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 03:14:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 03:14:17 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 03:14:17 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367
+[14-Jul-2016 03:20:20 UTC] PHP Warning:  require_once(wp_bootstrap_navwalker.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 03:20:20 UTC] PHP Stack trace:
+[14-Jul-2016 03:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 03:20:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 03:20:20 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 03:20:20 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 03:20:20 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367
+[14-Jul-2016 03:20:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp_bootstrap_navwalker.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php on line 2
+[14-Jul-2016 03:20:20 UTC] PHP Stack trace:
+[14-Jul-2016 03:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[14-Jul-2016 03:20:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:315
+[14-Jul-2016 03:20:20 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Jul-2016 03:20:20 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Jul-2016 03:20:20 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:367

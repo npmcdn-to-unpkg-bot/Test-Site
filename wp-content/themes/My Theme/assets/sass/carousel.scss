@@ -1,0 +1,12 @@
+.carousel-inner {
+    max-height: 60vh;
+    background-color: #444;
+    
+    .item {
+        
+        img {
+            width: 100%;
+            opacity: .8;
+        }
+    }
+}
