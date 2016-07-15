@@ -116,3 +116,82 @@
 [14-Jul-2016 03:22:34 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
 [14-Jul-2016 03:22:34 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
 [14-Jul-2016 03:22:34 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:367
+[15-Jul-2016 18:00:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/themes/My Theme/cta_widget.php on line 46
+[15-Jul-2016 18:00:38 UTC] PHP Stack trace:
+[15-Jul-2016 18:00:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[15-Jul-2016 18:00:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[15-Jul-2016 18:00:38 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 18:00:38 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 18:00:38 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[15-Jul-2016 18:00:38 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:00:38 UTC] PHP   7. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:00:38 UTC] PHP   8. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[15-Jul-2016 18:00:38 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:00:38 UTC] PHP  10. cta_load_widget() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:00:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/themes/My Theme/cta_widget.php on line 46
+[15-Jul-2016 18:00:42 UTC] PHP Stack trace:
+[15-Jul-2016 18:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[15-Jul-2016 18:00:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[15-Jul-2016 18:00:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[15-Jul-2016 18:00:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 18:00:42 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 18:00:42 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[15-Jul-2016 18:00:42 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:00:42 UTC] PHP   8. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:00:42 UTC] PHP   9. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[15-Jul-2016 18:00:42 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:00:42 UTC] PHP  11. cta_load_widget() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:03:57 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/wp-content/themes/My Theme/cta_widget.php on line 48
+[15-Jul-2016 18:03:57 UTC] PHP Stack trace:
+[15-Jul-2016 18:03:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[15-Jul-2016 18:03:57 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[15-Jul-2016 18:03:57 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[15-Jul-2016 18:03:57 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 18:03:57 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 18:03:57 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[15-Jul-2016 18:03:57 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:03:57 UTC] PHP   8. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:03:57 UTC] PHP   9. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[15-Jul-2016 18:03:57 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:03:57 UTC] PHP  11. cta_load_widget() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:05:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/themes/My Theme/cta_widget.php on line 46
+[15-Jul-2016 18:05:13 UTC] PHP Stack trace:
+[15-Jul-2016 18:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[15-Jul-2016 18:05:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[15-Jul-2016 18:05:13 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[15-Jul-2016 18:05:13 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 18:05:13 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 18:05:13 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[15-Jul-2016 18:05:13 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:05:13 UTC] PHP   8. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:05:13 UTC] PHP   9. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[15-Jul-2016 18:05:13 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:05:13 UTC] PHP  11. cta_load_widget() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:08:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/themes/My Theme/cta_widget.php on line 45
+[15-Jul-2016 18:08:46 UTC] PHP Stack trace:
+[15-Jul-2016 18:08:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[15-Jul-2016 18:08:46 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[15-Jul-2016 18:08:46 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[15-Jul-2016 18:08:46 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 18:08:46 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 18:08:46 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[15-Jul-2016 18:08:46 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:08:46 UTC] PHP   8. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:08:46 UTC] PHP   9. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[15-Jul-2016 18:08:46 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:08:46 UTC] PHP  11. cta_load_widget() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:11:01 UTC] PHP Fatal error:  Class 'cta_widget' not found in /home/ubuntu/workspace/wp-includes/class-wp-widget-factory.php on line 57
+[15-Jul-2016 18:11:01 UTC] PHP Stack trace:
+[15-Jul-2016 18:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[15-Jul-2016 18:11:01 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[15-Jul-2016 18:11:01 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[15-Jul-2016 18:11:01 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[15-Jul-2016 18:11:01 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[15-Jul-2016 18:11:01 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:393
+[15-Jul-2016 18:11:01 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:11:01 UTC] PHP   8. wp_widgets_init() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:11:01 UTC] PHP   9. do_action() /home/ubuntu/workspace/wp-includes/widgets.php:1475
+[15-Jul-2016 18:11:01 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:11:01 UTC] PHP  11. cta_load_widget() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[15-Jul-2016 18:11:01 UTC] PHP  12. register_widget() /home/ubuntu/workspace/wp-content/themes/My Theme/functions.php:13
+[15-Jul-2016 18:11:01 UTC] PHP  13. WP_Widget_Factory->register() /home/ubuntu/workspace/wp-includes/widgets.php:113

@@ -24,9 +24,11 @@ body {
 }
 @import 'assets/sass/nav';
 @import 'assets/sass/carousel';
+@import 'assets/sass/bootstrap';
 
 #secondary {
 	min-height: 100vh;
+	margin-top: 40px;
 }
 
 .site-branding, .site-info {
