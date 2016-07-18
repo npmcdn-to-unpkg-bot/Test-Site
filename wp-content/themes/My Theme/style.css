@@ -85,8 +85,13 @@ body {
     width: 100%;
     opacity: .8; }
 
+.widget .thumbnail {
+  border: none;
+  padding: 0; }
+
 #secondary {
-  min-height: 100vh; }
+  min-height: 100vh;
+  margin-top: 40px; }
 
 .site-branding, .site-info {
   padding-right: 15px;
