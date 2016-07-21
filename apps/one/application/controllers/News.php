@@ -40,20 +40,43 @@ class News extends CI_Controller {
         $this->load->library('form_validation');
         
         $data['title'] = 'Create a News Item';
+        $data['author'] = wp_get_current_user();
         
         $this->form_validation->set_rules('title', 'Title', 'required');
         $this->form_validation->set_rules('text', 'Text', 'required');
+        $this->form_validation->set_rules('author', 'Author', 'required');
         
         if ($this->form_validation->run() === FALSE) {
             
+            $data['error'] = '';
+            
             $this->load->view('templates/header', $data);
-            $this->load->view('news/create');
+            $this->load->view('news/create', array($data));
             $this->load->view('templates/footer');
         }
         else
-        {
-            $this->news_model->set_news();
-            $this->load->view('news/success');
+        {   
+            $config['upload_path'] ='uploads';
+            $config['allowed_types'] = 'gif|jpg|jpeg|png';
+            
+            $this->load->library('upload', $config);
+        
+            if ( !$this->upload->do_upload('userfile')) {
+                
+                $data['error'] = $this->upload->display_errors();
+                
+                $this->load->view('templates/header', $data);
+                $this->load->view('news/create', array($data));
+                $this->load->view('templates/footer');
+            }
+            else
+            {
+                $this->news_model->set_news();
+                
+                $this->load->view('templates/header', $data);
+                $this->load->view('news/success');
+                $this->load->view('templates/footer');
+            }
         }
     }
 }

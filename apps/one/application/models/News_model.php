@@ -30,11 +30,16 @@ class News_model extends CI_Model
         $this->load->helper('url');
         
         $slug = url_title($this->input->post('title'), 'dash', TRUE);
+        $date = date('Y-m-d');
+        $img = $_FILES['userfile']['name'];
         
         $data = array(
             'title' => $this->input->post('title'),
             'slug' => $slug,
-            'text' => $this->input->post('text')
+            'text' => $this->input->post('text'),
+            'date' => $date,
+            'author' => $this->input->post('author'),
+            'image' => $img
             );
             
         return $this->db->insert('news', $data);
