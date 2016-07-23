@@ -57,7 +57,7 @@ class News extends CI_Controller {
         else
         {   
             $config['upload_path'] ='uploads';
-            $config['allowed_types'] = 'gif|jpg|jpeg|png';
+            $config['allowed_types'] = 'gif|jpg|jpeg|png|bmp';
             
             $this->load->library('upload', $config);
         
@@ -76,6 +76,103 @@ class News extends CI_Controller {
                 $this->load->view('templates/header', $data);
                 $this->load->view('news/success');
                 $this->load->view('templates/footer');
+            }
+        }
+    }
+    
+    public function delete() {
+        
+        $this->load->library('table');
+        
+        $query = $this->db->query('SELECT * FROM news');
+        
+        $template = array(
+                'table_open' => '<table class="table table-hover">',
+                'heading_cell_start' => '<th class="text-capitalize">'
+            );
+        $this->table->set_template($template);
+        
+        $data['news'] = $this->table->generate($query);
+        $data['title'] = "Delete Record";
+        
+        
+        $this->load->view('templates/header', $data);
+        $this->load->view('news/delete', $data);
+        $this->load->view('templates/footer');
+    }
+    
+    public function deleteRecord(){
+        
+        $this->news_model->delete_news();
+    }
+    
+    public function get_updateData($id = NULL) {
+        
+        $data = $this->news_model->get_news("",$id);
+        return $data;
+    }
+    
+    public function update() {
+        
+        $this->load->library('table');
+        $this->load->helper('form');
+        $this->load->library('form_validation');
+        
+        $query = $this->db->query('SELECT * FROM news');
+        
+        $template = array(
+                'table_open' => '<table class="table table-hover">',
+                'heading_cell_start' => '<th class="text-capitalize">'
+            );
+        $this->table->set_template($template);
+        
+        $data['news'] = $this->table->generate($query);
+        $data['title'] = "Update Record";
+        
+        $this->form_validation->set_rules('title', 'Title', 'required');
+        $this->form_validation->set_rules('text', 'Text', 'required');
+        $this->form_validation->set_rules('author', 'Author', 'required');
+        
+        if ($this->form_validation->run() === FALSE) {
+            
+            $data['error'] = '';
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('news/update', array($data));
+            $this->load->view('templates/footer');
+        }
+        else
+        {   
+            $config['upload_path'] ='uploads';
+            $config['allowed_types'] = 'gif|jpg|jpeg|png|bmp';
+            
+            $this->load->library('upload', $config);
+            
+            if($_FILES['userfile']['name'] != "") {
+                if ( !$this->upload->do_upload('userfile')) {
+                    
+                    $data['error'] = $this->upload->display_errors();
+                    
+                    $this->load->view('templates/header', $data);
+                    $this->load->view('news/update', array($data));
+                    $this->load->view('templates/footer');
+                }
+                else
+                {
+                    $this->news_model->update_news();
+                    
+                    $this->load->view('templates/header', $data);
+                    $this->load->view('news/success');
+                    $this->load->view('templates/footer');
+                }
+            }
+            else
+            {
+                $this->news_model->update_news();
+                    
+                $this->load->view('templates/header', $data);
+                $this->load->view('news/success');
+                $this->load->view('templates/footer'); 
             }
         }
     }

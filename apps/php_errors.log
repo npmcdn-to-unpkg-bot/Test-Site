@@ -362,3 +362,45 @@
 [21-Jul-2016 19:21:55 UTC] PHP   4. News->view() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
 [21-Jul-2016 19:21:55 UTC] PHP   5. CI_Loader->view() /home/ubuntu/workspace/apps/one/application/controllers/News.php:33
 [21-Jul-2016 19:21:55 UTC] PHP   6. CI_Loader->_ci_load() /home/ubuntu/workspace/apps/one/system/core/Loader.php:489
+[22-Jul-2016 19:29:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting '(' in /home/ubuntu/workspace/apps/one/application/models/News_model.php on line 63
+[22-Jul-2016 19:29:12 UTC] PHP Stack trace:
+[22-Jul-2016 19:29:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[22-Jul-2016 19:29:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[22-Jul-2016 19:29:12 UTC] PHP   3. News->__construct() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:500
+[22-Jul-2016 19:29:12 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/apps/one/application/controllers/News.php:7
+[23-Jul-2016 05:08:13 UTC] PHP Fatal error:  Call to undefined method News_model::update_news() in /home/ubuntu/workspace/apps/one/application/controllers/News.php on line 163
+[23-Jul-2016 05:08:13 UTC] PHP Stack trace:
+[23-Jul-2016 05:08:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[23-Jul-2016 05:08:13 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[23-Jul-2016 05:08:13 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:08:13 UTC] PHP   4. News->update() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:12:53 UTC] PHP Fatal error:  Call to undefined method News_model::update_news() in /home/ubuntu/workspace/apps/one/application/controllers/News.php on line 173
+[23-Jul-2016 05:12:53 UTC] PHP Stack trace:
+[23-Jul-2016 05:12:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[23-Jul-2016 05:12:53 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[23-Jul-2016 05:12:53 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:12:53 UTC] PHP   4. News->update() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:13:11 UTC] PHP Fatal error:  Call to undefined method News_model::update_news() in /home/ubuntu/workspace/apps/one/application/controllers/News.php on line 173
+[23-Jul-2016 05:13:11 UTC] PHP Stack trace:
+[23-Jul-2016 05:13:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[23-Jul-2016 05:13:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[23-Jul-2016 05:13:11 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:13:11 UTC] PHP   4. News->update() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:16:40 UTC] PHP Fatal error:  Call to undefined method News_model::update_news() in /home/ubuntu/workspace/apps/one/application/controllers/News.php on line 173
+[23-Jul-2016 05:16:40 UTC] PHP Stack trace:
+[23-Jul-2016 05:16:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[23-Jul-2016 05:16:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[23-Jul-2016 05:16:40 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:16:40 UTC] PHP   4. News->update() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:17:05 UTC] PHP Fatal error:  Call to undefined method News_model::update_news() in /home/ubuntu/workspace/apps/one/application/controllers/News.php on line 164
+[23-Jul-2016 05:17:05 UTC] PHP Stack trace:
+[23-Jul-2016 05:17:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[23-Jul-2016 05:17:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[23-Jul-2016 05:17:05 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514}() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:17:05 UTC] PHP   4. News->update() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:514
+[23-Jul-2016 05:39:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/apps/one/application/models/News_model.php on line 74
+[23-Jul-2016 05:39:14 UTC] PHP Stack trace:
+[23-Jul-2016 05:39:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/apps/one/index.php:0
+[23-Jul-2016 05:39:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/apps/one/index.php:316
+[23-Jul-2016 05:39:14 UTC] PHP   3. News->__construct() /home/ubuntu/workspace/apps/one/system/core/CodeIgniter.php:500
+[23-Jul-2016 05:39:14 UTC] PHP   4. CI_Loader->model() /home/ubuntu/workspace/apps/one/application/controllers/News.php:7

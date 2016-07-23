@@ -21,6 +21,7 @@
               <ul class="dropdown-menu">
                 <li><a href="<?php echo site_url('apps/one/news'); ?>">News</a></li>
                 <li><a href="<?php echo site_url('apps/one/news/create'); ?>">Create</a></li>
+                <li><a href="<?php echo site_url('apps/one/news/delete'); ?>">Delete</a></li>
               </ul>
             </li>
           </ul>

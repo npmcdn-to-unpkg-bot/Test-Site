@@ -22,6 +22,39 @@ body {
 	font-size: 1rem;
 	overflow-x: hidden;
 }
+
+a:link {
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#imageHolder {
+	position: relative;
+	display: inline-block;
+}
+
+#imageHolder:hover {
+	cursor: pointer;
+}
+
+#imageHolder:hover:before {
+	content: "\e020";
+    margin: 0 5px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 16px;
+	display: block;
+	width: 16px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: red;
+	cursor: pointer;
+}
+
 @import 'assets/sass/nav';
 @import 'assets/sass/carousel';
 @import 'assets/sass/bootstrap';
